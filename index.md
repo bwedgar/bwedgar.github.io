@@ -1,4 +1,7 @@
-
+---
+title: Brian Edgar Web Pages
+layout: default
+---
 
 Brian's website 
 # first line
