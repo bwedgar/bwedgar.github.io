@@ -12,7 +12,7 @@ layout: default
 ## Model Making
 ### Model Rail
 #### Frame
-![image](/images/modelRailFrame.jpg)
+![image](/images/modelRailFrame.png)
 #### Models
 
 
