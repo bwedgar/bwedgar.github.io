@@ -6,7 +6,7 @@ layout: default
 # Brian's website 
 ## Astronomy
 ### My Push To Telescope web-app
-"https://htmlpreview.github.io/?https://github.com/bwedgar/PushToTelescope/blob/ES6/GoTo.html"
+[Web-app]("https://htmlpreview.github.io/?https://github.com/bwedgar/PushToTelescope/blob/ES6/GoTo.html")
 ### My observation blog
 
 ## Model Making
