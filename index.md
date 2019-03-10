@@ -1,9 +1,5 @@
 
----
-layout: default
-markdown: Kramdown
-title:  Brian's website
----
+
 Brian's website 
 # first line
 ## second line
