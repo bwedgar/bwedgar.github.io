@@ -7,7 +7,7 @@ layout: default
 ## Astronomy
 ### My Push To Telescope web-app
 #### [Run the web-app](https://htmlpreview.github.io/?https://github.com/bwedgar/PushToTelescope/blob/nojquery/GoTo.html)
-#### [Go to Push To Telescope page](pushtotelescope.md)
+#### [Go to Push To Telescope page](pushToTelescope.md)
 
 ### My observation blog
 
