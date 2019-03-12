@@ -21,11 +21,12 @@ I also plan to 3D print my engines and rolling stock. This suggest using battery
 #### Frame
 ![image](/images/modelRailFrame.png)
 Angle brace cutting table
-|==== length no.1.32mm	1|0.8mm	|0.38mm	|0.14mm |TOTAL mm
-2|1|2|1|2|3.68	
-3|1	|2|2||3.68	
-4|1|2|2||3.68	
-5|1	|2	|2||	3.68	
+|length no.|1.32mm	|0.8mm	|0.38mm	|0.14mm |TOTAL mm|
+|:——-|:——-|:——-|:——-|:——-|:——-|
+2|1|2|1|2|3.68|	
+3|1	|2|2||3.68|	
+4|1|2|2||3.68|	
+5|1	|2|2||3.68|	
 #### Models
 ## 3D Printing
 I use a MakerBot Replicator 2 to print models. I create my objects using code written with [OpenScad](http://www.openscad.org/). I share my objects on [Thingiverse](https://www.thingiverse.com/bwedgar/designs). 
