@@ -37,6 +37,6 @@ I have the CodeHub app on my iPhone which lets me edit any GitHub file away from
 ### Web apps
 I code web apps using HTML5 Javascript and CSS.  I used JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same functions. They also do not seem to be so necessary given the changes in Javasricpt and HTML.
 ## Web site
-I write this site using the markdown provided by GitHub called Kramdown. This allows links, content and formatting without having to write HTML tags. So much easier. 
+I write this site using the markdown provided by GitHub called [Kramdown](https://kramdown.gettalong.org/quickref.html). This allows links, content and formatting without having to write HTML tags. So much easier. 
 
 
