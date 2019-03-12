@@ -31,3 +31,7 @@ O  Open Clusters are groups of up to 1000 stars. They are all formed together fr
       The web app was written by Brian Edgar in 2018. It contains code from others for which I am grateful that it was shared and this is acknowledge in the code. The data base of objects was cut from various places on the web and pasted into a
       spreadsheet
       which is read by the app. I will update this as I discover more objects to look at.
+##
+Astronomical calculations
+[book: Practical Astronomy with your Calculator or Spreadsheet](https://archive.org/details/Practical_Astronomy_with_your_Calculator_or_Spreadsheet_4th_edition_by_Peter_Duf/page/n4)
+
