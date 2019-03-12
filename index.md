@@ -17,7 +17,8 @@ layout: default
 ![image](/images/modelRailFrame.png)
 #### Models
 
-
+## Electronics
+I have been interested in electronics since childhood when I got a [Phillips electronics set](https://m.youtube.com/watch?v=h1TII3Z-jXk). I use Picaxe microprocessors. 
 ## Picaxe
 ### Projects
 #### Model Rail Frame Controller
@@ -26,6 +27,8 @@ test
 ###  Writing and storing code
 After too many times of losing code I started using GitHub to store versions.  I write code using the Atom editor.  I use GitHub Desktop rather than command line instructions.
 ### Web apps
-I code web apps using HTML5 Javascript and CSS.  I used JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".  They also do not seem to be so necessary given the changes in Javasricpt and HTML.
+I code web apps using HTML5 Javascript and CSS.  I used JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same functions. They also do not seem to be so necessary given the changes in Javasricpt and HTML.
+## Web site
+I write this site using the markdown provided by GitHub called Kramdown. This allows links, content and formatting without having to write HTML tags. So much easier. 
 
 
