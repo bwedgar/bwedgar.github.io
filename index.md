@@ -15,7 +15,7 @@ layout: default
 ### Model Rail
 I had a 4x8 foot table top train set from Triang when I was a child. It must have been their [TT scale](https://en.m.wikipedia.org/wiki/TT_scale). My grandparents had an old [Lionel train set](https://en.m.wikipedia.org/wiki/Lionel_Corporation). The three rail system gave a painful shock! I would set this up on the carpet of their downstairs room and had many happy days surrounded by the heady fumes of “carbon tet”.
 
-I have been an “armchair modeller” for many years. In October 2017 I bought some iron plastering angles to make a frame. I only put it together in February 2019. 
+I have been an “armchair modeller” for many years. In October 2017 I bought some [angle brace](http://www.miteknz.co.nz/Products/LUMBERLOK-Timber-Connectors/Bracing-Products/Angle-Brace/) to make a frame. I only put it together in February 2019. 
 The aim is to have all the electronics, lighting and mechanical parts in the frame and have several models that can fit in the frame, so saving space and allowing different scenery. 
 I also plan to 3D print my engines and rolling stock. This suggest using battery powered engines. 
 #### Frame
