@@ -3,12 +3,13 @@
 {:toc}
 ## Help
 ### navigation
-      The button will calibrate the app. Get an object, usially a bright star in the eye piece and press the button. 
-      This should be done as you move around the sky.
-      The target bars show where the telescope is pointed. The top bar shows the altitude (angle above the horizon); lift or lower this to centre the cursor
-      The lower bar shows the azimuth or compass bearing. Rotate the telescope to get the cursor in the target circle.
-      The grey circle and line shows the position of the object in our galaxy. The red cross is the sun, the dot is the object.
-      The object selector buttons at the bottom of the screen let you find an object to observe.
+The CAL button will calibrate the app. Get an object, usually a bright star in the eye piece of the finder scope and press the button. 
+This can be done on any object that has been selected. 
+
+The target bars show where the telescope is pointed. The top bar shows the altitude (angle above the horizon); lift or lower this to centre the cursor
+The lower bar shows the azimuth or compass bearing. Rotate the telescope to get the cursor in the target circle.
+The grey circle and line shows the position of the object in our galaxy. The red cross is the sun, the dot is the object.
+The object selector buttons at the bottom of the screen let you find an object to observe.
       The screens are rendered in red on black to preserve night vision.
 #### Selector Buttons
       The codes are:
