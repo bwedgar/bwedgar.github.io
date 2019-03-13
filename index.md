@@ -31,7 +31,7 @@ Content in the first column | Content in the second column
 Angle brace cutting table
 
 length no.|1.32mm|0.8mm|0.38mm	|0.14mm|TOTAL mm
-—————-|——-——-|—-——-|——-——-|—————-|————-
+----------|--------|--------|---------|-------|--------
 2|1|2|1|2|3.68	
 3|1	|2|2||3.68
 4|1|2|2||3.68
