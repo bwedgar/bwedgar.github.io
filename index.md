@@ -23,11 +23,6 @@ I also plan to 3D print my engines and rolling stock. This suggest using battery
 #### Frame
 ![image](/images/modelRailFrame.png)
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
 Angle brace cutting table
 
 length no.|1.32mm|0.8mm|0.38mm	|0.14mm|TOTAL mm
@@ -39,7 +34,7 @@ length no.|1.32mm|0.8mm|0.38mm	|0.14mm|TOTAL mm
 
 #### Models
 ## 3D Printing
-I use a MakerBot Replicator 2 to print models. I create my objects using code written with [OpenScad](http://www.openscad.org/). I share my objects on [Thingiverse](https://www.thingiverse.com/bwedgar/designs). 
+I use a MakerBot Replicator 2 to print models. I create my objects using code written with [OpenScad](http://www.openscad.org/). I keep my OpenScad code on my OpenScad repository on github.  I share my objects on [Thingiverse](https://www.thingiverse.com/bwedgar/designs). 
 
 ## Electronics
 I have been interested in electronics since childhood when I got a [Phillips electronics set](https://m.youtube.com/watch?v=h1TII3Z-jXk). I use Picaxe microprocessors. 
