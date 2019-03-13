@@ -22,6 +22,12 @@ The aim is to have all the electronics, lighting and mechanical parts in the fra
 I also plan to 3D print my engines and rolling stock. This suggest using battery powered engines. 
 #### Frame
 ![image](/images/modelRailFrame.png)
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 Angle brace cutting table
 
 length no.|1.32mm|0.8mm|0.38mm	|0.14mm|TOTAL mm
