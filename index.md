@@ -43,8 +43,8 @@ I have been interested in electronics since childhood when I got a [Phillips ele
 #### Model Rail Frame Controller
 test
 ## Coding
-###  Writing and storing code
-After too many times of losing code I started using GitHub to store versions.  I write code using the Atom editor.  I use GitHub Desktop rather than command line instructions.
+###  Writing and storing code using github
+After too many times of losing code I started using GitHub to store versions.  I write code using the Atom editor.  I use GitHub Desktop rather than command line instructions. I am writng my own [guide](github.md) to how GitHub works.
 I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer. 
 ### Web apps
 I code web apps using HTML5 Javascript and CSS.  I used JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same functions. They also do not seem to be so necessary given the changes in Javasricpt and HTML.
