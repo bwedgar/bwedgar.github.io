@@ -42,4 +42,7 @@ The web app was written by Brian Edgar in 2018. It contains code from others for
 ## Astronomical calculations
 Most of the formulae used come from: 
 [book: Practical Astronomy with your Calculator or Spreadsheet](https://archive.org/details/Practical_Astronomy_with_your_Calculator_or_Spreadsheet_4th_edition_by_Peter_Duf/page/n4)
+## Gotchas
+I spent some time finding a bug that gave an azimuth with variable error. It was caused by not converting the altitude in degrees to radians. 
+
 
