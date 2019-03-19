@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="apple-touch-icon" href="launch.png">
+  <link rel="apple-touch-startup-image" href="launch.png">
+  <meta name="apple-mobile-web-app-title" content="Push To Telescope">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <style>
+
+    body {
+      background-color: black;
+      color: red;
+      font-family: verdana;
+      font-size: 120%;
+    }
+
+    .button {
+      background-color: black;
+      color: red;
+      font-family: verdana;
+      font-size: 7vw;
+      border: 1px solid red;
+      padding: 2% 2%;
+      text-align: left;
+    }
+
+  </style>
+
+  <script>
+
+    function ready() {
+      //(replace with javascript)
+      document.getElementById("buttonA").addEventListener("click", () => console.log("you pressed the button once"));
+    }
+
+    if (document.readyState == 'loading') {
+      document.addEventListener('DOMContentLoaded', ready);
+    } else {
+      ready();
+    }
+
+  </script>
+
+</head>
+
+<body>
+  <!-- (replace with html) -->
+  <button id="buttonA" class="button">a button</button>
+
+
+</body>
+
+</html>
