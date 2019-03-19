@@ -49,6 +49,8 @@ I have been interested in electronics since childhood when I got a [Phillips ele
 [test](https://htmlpreview.github.io/?https://github.com/bwedgar/WebAudioTest/blob/master/index.html)
 #### Infrared Serial Data Transmitter Web app
 open [at](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
+#### Using web audio for sound effects
+[go](https://noisehack.com/generate-noise-web-audio-api)
 
 
 
