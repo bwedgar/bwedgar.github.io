@@ -1,3 +1,3 @@
 #infra red 
-![ir receiver]/images/img_0332.png
+![image]/images/img_0332.png
 
