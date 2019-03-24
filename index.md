@@ -49,7 +49,8 @@ I use a MakerBot Replicator 2 to print models. I create my objects using code wr
 
 ## Electronics
 I have been interested in electronics since childhood when I got a [Phillips electronics set](https://m.youtube.com/watch?v=h1TII3Z-jXk). I use Picaxe microprocessors.
-### [Picaxe](picaxe.md) 
+### Picaxe
+[Picaxe](picaxe.md) 
 
 ### Projects
 #### Model Rail Frame Controller
