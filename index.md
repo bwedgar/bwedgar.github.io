@@ -12,7 +12,12 @@ After too many times of losing code I started using GitHub to store versions.  I
 I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer.
 ### Writing Web apps
 I code web apps using HTML5 Javascript and CSS.  I used JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same functions. They also do not seem to be so necessary given the changes in Javasricpt and HTML.
-## Sound Effects Generator
+
+## Coding sounds
+I became interesting in making sounds using code in 2019.  This was mainly motivated with using a web app to control my model railway using audio modulated infrared signals.  It occured to me that audio effects could be made by the same web app. 
+### Coding Bird Songs
+Birdsongs are analysed and reproduced using Web Audio API [Coding Bird Songs](birdsongs.md). 
+### coding natural sound effects and mechanical sounds
 
 ## Astronomy
 ### My Telescope
@@ -43,7 +48,6 @@ length no.|1.32mm|0.8mm|0.38mm	|0.14mm|TOTAL mm
 4|1|2|2||3.68
 5|1	|2|2||3.68
 
-
 ## 3D Printing
 I use a MakerBot Replicator 2 to print models. I create my objects using code written with [OpenScad](http://www.openscad.org/). I keep my OpenScad code on my OpenScad repository on github.  I share my objects on [Thingiverse](https://www.thingiverse.com/bwedgar/designs).
 
@@ -60,9 +64,6 @@ I have been interested in electronics since childhood when I got a [Phillips ele
 open [at](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
 #### Using web audio for sound effects
 [go](https://noisehack.com/generate-noise-web-audio-api)
-
-
-
 
 ## Web site
 I write this site using the [markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) provided by GitHub. This allows links, content and formatting without having to write HTML tags. So much easier.
