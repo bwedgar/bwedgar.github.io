@@ -7,17 +7,20 @@ layout: default
 {:toc}
 
 ## Coding
-###  Writing and storing code using github
-After too many times of losing code I started using GitHub to store versions.  I write code using the Atom editor.  I use GitHub Desktop rather than command line instructions. I am writng my own [guide](github.md) to how GitHub works.
+###  GitHub
+After too many times of losing code I started using GitHub to store my code from March 2019.  I write code using the Atom editor.  I use GitHub Desktop rather than command line instructions. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
 I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer.
-### Writing Web apps
-I code web apps using HTML5 Javascript and CSS.  I used JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same functions. They also do not seem to be so necessary given the changes in Javasricpt and HTML.
+### Web apps
+I code web apps using HTML5, Javascript and CSS.  I used to use JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same ease of writing. They also do not seem to be so necessary given the changes in Javascript and HTML.
 
 ## Coding sounds
-I became interesting in making sounds using code in 2019.  This was mainly motivated with using a web app to control my model railway using audio modulated infrared signals.  It occured to me that audio effects could be made by the same web app. 
-### Coding Bird Songs
-Birdsongs are analysed and reproduced using Web Audio API [Coding Bird Songs](birdsongs.md). 
-### coding natural sound effects and mechanical sounds
+I became interesting in making sounds using code in 2019.  This was mainly motivated with using a web app to control my model railway using audio modulated infrared signals.  It occurred to me that audio effects could be made by the same web app.
+### Bird Songs
+Birdsongs are analysed and reproduced using Web Audio API [Coding Bird Songs](birdsongs.md).
+### Sound effects
+I am writing a [web app](soundeffects.md) to make sound effects for my model railway.  These ideas are based on [go](https://noisehack.com/generate-noise-web-audio-api)
+### WebAudio test
+This is a way of testing if a device can use Web Audio API. [test](https://htmlpreview.github.io/?https://github.com/bwedgar/WebAudioTest/blob/master/index.html)
 
 ## Astronomy
 ### My Telescope
@@ -49,21 +52,18 @@ length no.|1.32mm|0.8mm|0.38mm	|0.14mm|TOTAL mm
 5|1	|2|2||3.68
 
 ## 3D Printing
-I use a MakerBot Replicator 2 to print models. I create my objects using code written with [OpenScad](http://www.openscad.org/). I keep my OpenScad code on my OpenScad repository on github.  I share my objects on [Thingiverse](https://www.thingiverse.com/bwedgar/designs).
+I use a MakerBot Replicator 2 to print models. I create my objects using code written with [OpenScad](http://www.openscad.org/). I keep my OpenScad code on my OpenScad repository on GitHub.  I share my objects on [Thingiverse](https://www.thingiverse.com/bwedgar/designs).
 
 ## Electronics
-I have been interested in electronics since childhood when I got a [Phillips electronics set](https://m.youtube.com/watch?v=h1TII3Z-jXk). I use Picaxe microprocessors.
+I have been interested in electronics since childhood when I got a [Phillips electronics set](https://m.youtube.com/watch?v=h1TII3Z-jXk).
 ### Picaxe
-[Picaxe](picaxe.md) 
-
-### Projects
+I use Picaxe microprocessors. These come in various sizes from 8 legs to many more. They are programmed in BASIC from a PC.  
+My picaxe programs are in GitHub repo [Picaxe](picaxe.md).
 #### Model Rail Frame Controller
-#### WebAudio test
-[test](https://htmlpreview.github.io/?https://github.com/bwedgar/WebAudioTest/blob/master/index.html)
+This takes input from a smart device and controls engines, lights, mechanical devices.
 #### Infrared Serial Data Transmitter Web app
-open [at](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
-#### Using web audio for sound effects
-[go](https://noisehack.com/generate-noise-web-audio-api)
+This web app allows a computer or mobile device to send serial signals to a picaxe computer (or Sony TV). It is based on a circuit by ???.  [Run the Web App](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
 
-## Web site
+
+## This Web site
 I write this site using the [markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) provided by GitHub. This allows links, content and formatting without having to write HTML tags. So much easier.
