@@ -14,6 +14,8 @@ I have the CodeHub app on my iPhone which lets me edit any GitHub file away from
 I code web apps using HTML5, Javascript and CSS.  I used to use JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same ease of writing. They also do not seem to be so necessary given the changes in Javascript and HTML.
 Making a web app available offline.  I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
 This uses a service worker to cache the files the web app needs to run. (This replaces the Cache Manifest I have previously used)
+I found that the code to register the service worker has to be moved to the DOMload event in index.html or it does not run. The reference to the location has to be correct [see](https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
+
 
 ## Coding sounds
 I became interesting in making sounds using code in 2019.  This was mainly motivated with using a web app to control my model railway using audio modulated infrared signals.  It occurred to me that audio effects could be made by the same web app.
