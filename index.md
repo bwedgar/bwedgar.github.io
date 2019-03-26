@@ -15,6 +15,13 @@ I code web apps using HTML5, Javascript and CSS.  I used to use JQuery and JQuer
 Making a web app available offline.  I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
 This uses a service worker to cache the files the web app needs to run. (This replaces the Cache Manifest I have previously used)
 I found that the code to register the service worker has to be moved to the DOMload event in index.html or it does not run. The reference to the location has to be correct [see](https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
+I make icons for the web apps using the online drawing program [Pixilart](https://www.pixilart.com/draw).  I save the icons as 100X100.
+I include a manifest.json file.  I include the code that iOS needs to make a web app.
+```html
+<link ref='klklk'/>
+```
+
+
 
 
 ## Coding sounds
