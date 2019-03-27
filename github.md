@@ -4,7 +4,7 @@ Github takes a file that you create on your computer, or a file you create using
 When you have written the file on the computer you go to GitDeskTop app and press the blue Commit to button, then the blue Push button
 This sends the file to GitHub as a version.
 
-# Using online GitHub
+# Using GitHub online 
 This has the advantage of giving you access to all the functions you need to make and maintain your github web site. When you add or edit a file it is available after a minute to run the code off the web. It has the disadvantage of no code formating and a small delay between comitting a file and running it.
 ## Accessing GitHub
 Visit [GitHub](https://github.com).  Sign In or Sign Up.
@@ -25,8 +25,12 @@ Make and name a new branch
 Click on Pull request button against the branch name.
 
 
-# Downloading your repository to your computer
+# Using GitHub on your computer
+On a computer you can edit an upload files using the terminal or GitHub Desktop.  I use the latter.
 This has the advantage of being able to use the atom editor and being immediatly able to run the code offline.
+Do NOT download your web site ```{gitUserName}.github.io``` to your computer - it will not change your .md file (markdown) into .html for viewing
+## Downloading your repository to your computer
+
 ## Install GitHub Desktop
 ## Downloading the whole repository
 This downloads the current branch
