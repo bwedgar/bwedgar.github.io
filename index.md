@@ -20,6 +20,12 @@ I include a manifest.json file.  I include the code that iOS needs to make a web
 ```html
 <link ref='klklk'/>
 ```
+### Thoughts on coding.
+1. Keep it Simple. This means not using libraries and functions that are not necessary.  These have a learning curve and if seldom used are hard to remember. Don't make unnecessary variables; don't give a DOM element a name just to save having to use getElementById several times.
+2. Don't use html buttons.  These were designed for making web pages without needing javascript.  They are unnecessariy complicated and their actions are best produced by javascript.
+3. Make separate css style classes and add or removed them from elements with getElementById({element id}).classList.add({class name}).
+4. Query the state of an element, like pressed or not, with getElementById({element id}).className.search({class name}). 
+5.
 
 
 
