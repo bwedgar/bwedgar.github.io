@@ -17,17 +17,21 @@ This uses a service worker to cache the files the web app needs to run. (This re
 I found that the code to register the service worker has to be moved to the DOMload event in index.html or it does not run. The reference to the location has to be correct [see](https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
 I make icons for the web apps using the online drawing program [Pixilart](https://www.pixilart.com/draw).  I save the icons as 100X100.
 I include a manifest.json file.  I include the code that iOS needs to make a web app.
-```html
-<link ref='klklk'/>
-```
+
 ### Thoughts on coding.
 1. Keep it Simple. This means not using libraries and functions that are not necessary.  These have a learning curve and if seldom used are hard to remember. Don't make unnecessary variables; don't give a DOM element a name just to save having to use getElementById several times.
-2. Don't use html buttons.  These were designed for making web pages without needing javascript.  They are unnecessariy complicated and their actions are best produced by javascript.
-3. Make separate css style classes and add or removed them from elements with getElementById({element id}).classList.add({class name}).
-4. Query the state of an element, like pressed or not, with getElementById({element id}).className.search({class name}). 
+2. Don't use html buttons.  These were designed for making web pages without needing to use javascript.  They are unnecessariy complicated and their actions are best produced by javascript and css. See any of my web apps for the method
+3. Make separate css style classes and add or removed them from elements with 
+```javascript
+getElementById({element id}).classList.add({class name})
+```
+4. Query the state of an element, like pressed or not, with 
+```javascript
+getElementById({element id}).className.search({class name})
+```
 5. To get the index and the value of items in an array  
 ```javascript
-for (const [index,value] of array.entries()) {
+  for (const [index,value] of array.entries()) {
 console.log(`index: ${index} value: ${value}`)
 }
 ```
