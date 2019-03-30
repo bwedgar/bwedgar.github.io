@@ -25,7 +25,11 @@ I include a manifest.json file.  I include the code that iOS needs to make a web
 2. Don't use html buttons.  These were designed for making web pages without needing javascript.  They are unnecessariy complicated and their actions are best produced by javascript.
 3. Make separate css style classes and add or removed them from elements with getElementById({element id}).classList.add({class name}).
 4. Query the state of an element, like pressed or not, with getElementById({element id}).className.search({class name}). 
-5.
+5. To get the index and the value of items in an array  
+```for (const [index,value] of array.entries()) {
+console.log(`index: ${index} value: ${value}`)
+}
+```
 
 
 
