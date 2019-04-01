@@ -35,6 +35,12 @@ getElementById({element id}).className.search({class name})
 console.log(`index: ${index} value: ${value}`)
 }
 ```
+6. Canvas, setting size.
+Set the size on the canvas, not the context, using javascript
+```javascript
+canvas.width = window.innerWidth;
+```
+7. 
 
 
 
