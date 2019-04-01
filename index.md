@@ -2,7 +2,7 @@
 title: Brian Edgar Web Pages
 layout: default
 ---
-# Brian's website
+# Brian's website gh-pages
 
 {:toc}
 
