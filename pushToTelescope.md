@@ -1,6 +1,8 @@
 # Push To Telescope
 - TOC
 {:toc}
+## Run the application
+[link](bwedgar.github.com/PushToTelescope/)
 ## Help
 ### navigation
 #### CAL
