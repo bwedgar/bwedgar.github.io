@@ -1,4 +1,7 @@
 Making it offline
+Put this line between the <head> and </head> tags
+<link rel canonical....>
+
 Put this script in the index.html file
 
 Copy this file sw.js to the same repository as the index.html
