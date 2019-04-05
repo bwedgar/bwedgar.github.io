@@ -1,4 +1,14 @@
 # My guide to understanding and using GitHub
+## Two different repositories
+GitHub stores files in two different types of folders called *repositories*
+1. most repositories have the name <username>/repository name . i.e. bwedgar/BirdSongs
+  This is where you keep an ```index.html``` file and other files for a project.
+  If a user goes to the address github.com/bwedgar/BirdSongs they can find all the files in this repository.
+  If a use wants to run the index.html file in the repository to see what it does they need to go to the address bwedgar.github.io/BirdSongs.
+  For this to work you need to go the Settings page on the repository and select "????/ . from mater branch,  You also need to go the the repository page bwedgar.github.io and on the Settings page do something.
+2. a special repository is the GitHub Pages repository which has the name <username>/<username>.github.io. 
+  This is where you keep the pages of your gitHub web site.
+  
 ## Versions
 Github takes a file that you create on your computer, or a file you create using the online editor at github.com.
 When you have written the file on the computer you go to GitDeskTop app and press the blue Commit to button, then the blue Push button
