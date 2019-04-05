@@ -2,7 +2,7 @@
 - TOC
 {:toc}
 ## Run the application
-[link](bwedgar.github.com/PushToTelescope/)
+[link](bwedgar.github.io/PushToTelescope/)
 ## Help
 ### navigation
 #### CAL
