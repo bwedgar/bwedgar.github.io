@@ -1,0 +1,7 @@
+Making it offline
+Put this script in the index.html file
+
+Copy this file sw.js to the same repository as the index.html
+
+This makes a cache on the computer.  This will stop the application updating unless you go to the settings on iphone for safari and 
+go to Advanced>Website Data> <username>.github.io and delete the data - 
