@@ -7,12 +7,16 @@ layout: default
 {:toc}
 
 ## Coding
+
 ###  GitHub
 After too many times of losing code I started using GitHub to store my code from March 2019.  I write code using the Atom editor.  I use GitHub Desktop rather than command line instructions. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
 I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer.
+
 ### Web apps
-I code web apps using HTML5, Javascript and CSS.  I used to use JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same ease of writing. They also do not seem to be so necessary given the changes in Javascript and HTML.
-Making a web app available offline.  I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
+I code web apps using HTML5, Javascript and CSS.  I used to use JQuery and JQuery Mobile until 2018 but found they are not well supported now and have been superceded.  Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same ease of writing. They also do not seem to be so necessary given the changes in Javascript and HTML.  I seem to be able to make usable mobile web apps without frameworks, and that means less to learn about.
+  
+#### Making a web app available offline
+I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
 This uses a service worker to cache the files the web app needs to run. (This replaces the Cache Manifest I have previously used)
 I found that the code to register the service worker has to be moved to the DOMload event in index.html or it does not run. The reference to the location has to be correct [see](https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
 I make icons for the web apps using the online drawing program [Pixilart](https://www.pixilart.com/draw).  I save the icons as 100X100.
@@ -34,7 +38,7 @@ getElementById({element id}).className.search({class name})
 ```
 5. To get the index and the value of items in an array  
 ```javascript
-  for (const [index,value] of array.entries()) {
+  for (const [index,value] of Object.entries(array)) {
 console.log(`index: ${index} value: ${value}`)
 }
 ```
@@ -63,8 +67,8 @@ I bought a short focus 6 inch equatorial mounted telescope around 1995 when I wa
 ### Web sites
 [Atlas of the Universe](http://www.atlasoftheuniverse.com/index.html)
 ### My Push To Telescope web-app
-#### [Run the web-app](https://htmlpreview.github.io/?https://github.com/bwedgar/PushToTelescope/blob/master/index.html)
-#### [Go to Push To Telescope page](pushToTelescope.md)
+My web app is https://bwedgar.github.io/PushToTelescope/
+Documentation at: https://bwedgar.github.io/PushToTelescope.md
 
 
 ## Model Making
