@@ -19,7 +19,7 @@ I make icons for the web apps using the online drawing program [Pixilart](https:
 I include a manifest.json file.  I include the code that iOS needs to make a web app.
 
 ### Databases for web apps
-I use IndexedDB now.  I used to use WebSQL but this is no longer supported. I had been writing SQL scripts for over 40 years so it was a pain to have to learn something new.  IndexedDB is not nice to use.  I use the https://dexie.org/ code which makes writing databases fun again.  I have written a small [practice database](https://bwedgar.github.io/dexie-example/) to demonstrate the code.  
+I use IndexedDB now.  I used to use WebSQL but this is no longer supported. I had been writing SQL scripts for over 40 years so it was a pain to have to learn something new.  IndexedDB is not nice to use.  I use the https://dexie.org/ "minimalist wrapper" which makes writing databases fun again.  I have written a small dexie example https://bwedgar.github.io/dexie-example/ to demonstrate using the wrapper.  
 
 ### Thoughts on coding.
 1. Keep it Simple. This means not using libraries and functions that are not necessary.  These have a learning curve and if seldom used are hard to remember. Don't make unnecessary variables; don't give a DOM element a name just to save having to use getElementById several times.
