@@ -18,6 +18,9 @@ I found that the code to register the service worker has to be moved to the DOMl
 I make icons for the web apps using the online drawing program [Pixilart](https://www.pixilart.com/draw).  I save the icons as 100X100.
 I include a manifest.json file.  I include the code that iOS needs to make a web app.
 
+### Databases for web apps
+I use IndexedDB now.  I used to use WebSQL but this is no longer supported. I had been writing SQL scripts for over 40 years so it was a pain to have to learn something new.  IndexedDB is not nice to use.  I use the Dexie.js code which makes writing databases fun again.  I have written a small [practice database](https://bwedgar.github.io/dexie-example/) to demonstrate the code.  
+
 ### Thoughts on coding.
 1. Keep it Simple. This means not using libraries and functions that are not necessary.  These have a learning curve and if seldom used are hard to remember. Don't make unnecessary variables; don't give a DOM element a name just to save having to use getElementById several times.
 2. Don't use html buttons.  These were designed for making web pages without needing to use javascript.  They are unnecessariy complicated and their actions are best produced by javascript and css. See any of my web apps for the method
