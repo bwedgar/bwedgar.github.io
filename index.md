@@ -68,7 +68,7 @@ I bought a short focus 6 inch equatorial mounted telescope around 1995 when I wa
 [Atlas of the Universe](http://www.atlasoftheuniverse.com/index.html)
 ### My Push To Telescope web-app
 My web app is https://bwedgar.github.io/PushToTelescope/
-Documentation at: https://bwedgar.github.io/PushToTelescope.md
+Documentation at: https://bwedgar.github.io/pushToTelescope.md
 
 
 ## Model Making
