@@ -101,7 +101,8 @@ My picaxe programs are in GitHub repo [Picaxe](picaxe.md).
 #### Model Rail Frame Controller
 This takes input from a smart device and controls engines, lights, mechanical devices.
 #### Infrared Serial Data Transmitter Web app
-This web app allows a computer or mobile device to send serial signals to a picaxe computer (or Sony TV). It is based on a circuit by ???.  [Run the Web App](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
+This web app allows a computer or mobile device to send serial signals to a picaxe computer (or Sony TV). It is based on a circuit by https://www.instructables.com/id/DIY-Infrared-transmitter-for-iPhone-iPod/?amp_page=true
+  [Run the Web App](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
 
 
 ## This Web site
