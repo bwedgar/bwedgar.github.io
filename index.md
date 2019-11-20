@@ -2,52 +2,24 @@
 title: Brian Edgar Web Pages
 layout: default
 ---
-# Brian's website
+# Brian Edgar's website
 
 {:toc}
 
 ## Coding
-
 ###  GitHub
-After too many times of losing code I started using GitHub to store my code from March 2019.  I write code using the Atom editor.  I use GitHub Desktop rather than command line instructions. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
+After too many times of losing code I started using GitHub to store my code in March 2019.  I write code using the Atom editor.  I use GitHub Desktop on a MacBook Air rather than command line instructions. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
 I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer.
-
 ### Web apps
-I code web apps using HTML5, Javascript and CSS.  I used to use JQuery and JQuery Mobile until 2018 but found they are not well supported now and have been superceded.  Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same ease of writing. They also do not seem to be so necessary given the changes in Javascript and HTML.  I seem to be able to make usable mobile web apps without frameworks, and that means less to learn about.
-  
-#### Making a web app available offline
-I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
+I code web apps using HTML5, Javascript and CSS.  I used to use JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same capabilities.
+Making a web app available offline.  I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
 This uses a service worker to cache the files the web app needs to run. (This replaces the Cache Manifest I have previously used)
 I found that the code to register the service worker has to be moved to the DOMload event in index.html or it does not run. The reference to the location has to be correct [see](https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
 I make icons for the web apps using the online drawing program [Pixilart](https://www.pixilart.com/draw).  I save the icons as 100X100.
 I include a manifest.json file.  I include the code that iOS needs to make a web app.
-
-### Databases for web apps
-I use IndexedDB now.  I used to use WebSQL but this is no longer supported. I had been writing SQL scripts for over 40 years so it was a pain to have to learn something new.  IndexedDB is not nice to use.  I use the https://dexie.org/ "minimalist wrapper" which makes writing databases fun again.  I have written a small dexie example https://bwedgar.github.io/dexie-example/ to demonstrate using the wrapper.  
-
-### Thoughts on coding.
-1. Keep it Simple. This means not using libraries and functions that are not necessary.  These have a learning curve and if seldom used are hard to remember. Don't make unnecessary variables; don't give a DOM element a name just to save having to use getElementById several times.
-2. Don't use html buttons.  These were designed for making web pages without needing to use javascript.  They are unnecessariy complicated and their actions are best produced by javascript and css. See any of my web apps for the method
-3. Make separate css style classes and add or removed them from elements with 
-```javascript
-getElementById({element id}).classList.add({class name})
+```html
+<link ref='klklk'/>
 ```
-4. Query the state of an element, like pressed or not, with 
-```javascript
-getElementById({element id}).className.search({class name})
-```
-5. To get the index and the value of items in an array  
-```javascript
-  for (const [index,value] of Object.entries(array)) {
-console.log(`index: ${index} value: ${value}`)
-}
-```
-6. Canvas, setting size.
-Set the size on the canvas, not the context, using javascript
-```javascript
-canvas.width = window.innerWidth;
-```
-7. 
 
 
 
@@ -63,17 +35,17 @@ This is a way of testing if a device can use Web Audio API. [test](https://htmlp
 
 ## Astronomy
 ### My Telescope
-I bought a short focus 6 inch equatorial mounted telescope around 1995 when I was less informed about telescopes than I am now. I found this hard to move around with its heavy mechanism and tripod and hard to get a comfortable viewing angle. I then modified the mount to make an alt-az mounting as I had no need to track stars or use the setting circles to find stars. This made it easier to use but still not very portable; I did not use it much. Lately I got rid of the tripod and gearing by building a dobsonian mounting. I had some formica offcuts from a bench I had made, some 18 mm plywood left over from building and some teflon blocks I had got from a plastics shop years ago. I used the excellent instructions on the [Stellafane site](https://stellafane.org/tm/dob/index.html). The finished product exceeded my expectations. It is easy to use and I expect to spend more time with my telescope.  [photo](img)
+I bought a short focus 6 inch equatorial mounted telescope around 1995 when I was less informed about telescopes than I am now. I found this hard to carry around with its heavy equatorial mechanism and tripod and it was hard to get a comfortable viewing angle. I then modified the mount to make an alt-az mounting as I had no need to track stars or use the setting circles to find stars. This made it easier to use but still not very portable; I did not use it much. Lately I got rid of the tripod and gearing by building a dobsonian mounting. I had some formica offcuts from a bench I had made, some 18 mm plywood left over from building and some teflon blocks I had got from a plastics shop years ago. I used the excellent instructions on the [Stellafane site](https://stellafane.org/tm/dob/index.html). The finished product exceeded my expectations. It is easy to use and I expect to spend more time with my telescope.  [photo](img)
 ### Web sites
 [Atlas of the Universe](http://www.atlasoftheuniverse.com/index.html)
 ### My Push To Telescope web-app
-My web app is https://bwedgar.github.io/PushToTelescope/
-Documentation at: https://bwedgar.github.io/pushToTelescope
+#### [Run the web-app](https://htmlpreview.github.io/?https://github.com/bwedgar/PushToTelescope/blob/master/index.html)
+#### [Go to Push To Telescope page](pushToTelescope.md)
 
 
 ## Model Making
 ### Model Rail
-I had a 4x8 foot table top train set from Triang when I was a child. It must have been their [TT scale](https://en.m.wikipedia.org/wiki/TT_scale). My grandparents had an old [Lionel train set](https://en.m.wikipedia.org/wiki/Lionel_Corporation). The three rail system gave a painful shock! I would set this up on the carpet of their downstairs room and had many happy days surrounded by the heady fumes of “carbon tet”.
+I had a 4x8 foot table top train set from Triang when I was a child. It must have been their [TT scale](https://en.m.wikipedia.org/wiki/TT_scale). My grandparents had an old [Lionel train set](https://en.m.wikipedia.org/wiki/Lionel_Corporation). The three rail system gave a painful electric shock! I would set this up on the carpet of their downstairs room and had many happy days surrounded by the heady fumes of “carbon tet”.
 
 I have been an “armchair modeller” for many years. In October 2017 I bought some [angle brace](http://www.miteknz.co.nz/Products/LUMBERLOK-Timber-Connectors/Bracing-Products/Angle-Brace/) to make a frame. I only put it together in February 2019.
 The aim is to have all the electronics, lighting and mechanical parts in the frame and have several models that can fit in the frame, so saving space and allowing different scenery.
@@ -101,8 +73,7 @@ My picaxe programs are in GitHub repo [Picaxe](picaxe.md).
 #### Model Rail Frame Controller
 This takes input from a smart device and controls engines, lights, mechanical devices.
 #### Infrared Serial Data Transmitter Web app
-This web app allows a computer or mobile device to send serial signals to a picaxe computer (or Sony TV). It is based on a circuit by https://www.instructables.com/id/DIY-Infrared-transmitter-for-iPhone-iPod/?amp_page=true
-  [Run the Web App](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
+This web app allows a computer or mobile device to send serial signals to a picaxe computer (or Sony TV). It is based on a circuit by ???.  [Run the Web App](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
 
 
 ## This Web site
