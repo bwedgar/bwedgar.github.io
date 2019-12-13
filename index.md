@@ -6,7 +6,10 @@ layout: default
 
 {:toc}
 
-## Coding
+## My Web Apps
+### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo. 
+### [Push To Telescope](https://bwedgar.github.io/PushToTelescope)
+##Coding
 ###  GitHub
 After too many times of losing code I started using GitHub to store my code in March 2019.  I write code using the Atom editor.  I use GitHub Desktop on a MacBook Air rather than command line instructions. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
 I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer.
@@ -20,9 +23,8 @@ I include a manifest.json file.  I include the code that iOS needs to make a web
 ```html
 <link ref='klklk'/>
 ```
-
-
-
+## This Web site
+I write this site using the [markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) provided by GitHub. This allows links, content and formatting without having to write HTML tags. So much easier.
 
 ## Coding sounds
 I became interesting in making sounds using code in 2019.  This was mainly motivated with using a web app to control my model railway using audio modulated infrared signals.  It occurred to me that audio effects could be made by the same web app.
@@ -39,7 +41,7 @@ I bought a short focus 6 inch equatorial mounted telescope around 1995 when I wa
 ### Web sites
 [Atlas of the Universe](http://www.atlasoftheuniverse.com/index.html)
 ### My Push To Telescope web-app
-#### [Run the web-app](https://htmlpreview.github.io/?https://github.com/bwedgar/PushToTelescope/blob/master/index.html)
+#### [Push To Telescope](https://bwedgar.github.io/PushToTelescope)
 #### [Go to Push To Telescope page](pushToTelescope.md)
 
 
@@ -76,5 +78,4 @@ This takes input from a smart device and controls engines, lights, mechanical de
 This web app allows a computer or mobile device to send serial signals to a picaxe computer (or Sony TV). It is based on a circuit by ???.  [Run the Web App](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
 
 
-## This Web site
-I write this site using the [markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) provided by GitHub. This allows links, content and formatting without having to write HTML tags. So much easier.
+
