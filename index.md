@@ -35,6 +35,8 @@ Birdsongs are analysed and reproduced using Web Audio API [Coding Bird Songs](bi
 I am writing a [web app](soundeffects.md) to make sound effects for my model railway.  These ideas are based on [go](https://noisehack.com/generate-noise-web-audio-api)
 ### WebAudio test
 This is a way of testing if a device can use Web Audio API. [test](https://bwedgar.github.io/WebAudioTest)
+### Synthetic Māori voice. 
+I have written a mespeakmaori.js to change written maori language into spoken.  I use the formant synthesiser at [mespeak](https://www.masswerk.at/mespeak/) with code to produce the necessary phonemes and stressed syllables.  I did not use the option of coding a voice as I could not understand how to do this. This is part of my korero web app and can also be accessed at [mespeakmaori]((https://bwedgar.github.io/mespeakmaori)
 
 ## Astronomy
 ### My Telescope
