@@ -8,22 +8,22 @@ layout: default
 
 ## My Web Apps
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo. 
-### [Push To Telescope](https://bwedgar.github.io/PushToTelescope)
-##Coding
+### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
+
+## Coding
 ###  GitHub
 After too many times of losing code I started using GitHub to store my code in March 2019.  I write code using the Atom editor.  I use GitHub Desktop on a MacBook Air rather than command line instructions. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
 I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer.
 ### Web apps
-I code web apps using HTML5, Javascript and CSS.  I used to use JQuery and JQuery Mobile until 2018 but found they did not work well for apps accessed straight from GitHub using "htmlpreview.github.io".   Also I used coffeescript up to 2018 but the ES6 version of Javascript seems to provide the same capabilities.
+#### Tools
+I code web apps using HTML5, Javascript and CSS.  I used to use Coffeescript, JQuery and JQuery Mobile until 2017 but found they are not really needed with the updated JS version.   
 Making a web app available offline.  I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
 This uses a service worker to cache the files the web app needs to run. (This replaces the Cache Manifest I have previously used)
 I found that the code to register the service worker has to be moved to the DOMload event in index.html or it does not run. The reference to the location has to be correct [see](https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
 I make icons for the web apps using the online drawing program [Pixilart](https://www.pixilart.com/draw).  I save the icons as 100X100.
 I include a manifest.json file.  I include the code that iOS needs to make a web app.
-```html
-<link ref='klklk'/>
-```
-## This Web site
+
+#### This Web site
 I write this site using the [markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) provided by GitHub. This allows links, content and formatting without having to write HTML tags. So much easier.
 
 ## Coding sounds
@@ -33,7 +33,7 @@ Birdsongs are analysed and reproduced using Web Audio API [Coding Bird Songs](bi
 ### Sound effects
 I am writing a [web app](soundeffects.md) to make sound effects for my model railway.  These ideas are based on [go](https://noisehack.com/generate-noise-web-audio-api)
 ### WebAudio test
-This is a way of testing if a device can use Web Audio API. [test](https://htmlpreview.github.io/?https://github.com/bwedgar/WebAudioTest/blob/master/index.html)
+This is a way of testing if a device can use Web Audio API. [test](https://bwedgar.github.io/WebAudioTest)
 
 ## Astronomy
 ### My Telescope
@@ -75,7 +75,7 @@ My picaxe programs are in GitHub repo [Picaxe](picaxe.md).
 #### Model Rail Frame Controller
 This takes input from a smart device and controls engines, lights, mechanical devices.
 #### Infrared Serial Data Transmitter Web app
-This web app allows a computer or mobile device to send serial signals to a picaxe computer (or Sony TV). It is based on a circuit by ???.  [Run the Web App](https://htmlpreview.github.io/?https://github.com/bwedgar/InfraRedSerialTransmitter/blob/master/index.html)
+This web app allows a computer or mobile device to send serial signals to a picaxe computer (or Sony TV). It is based on a circuit by ???.  [Run the Web App](https://bwedgar.github.io/InfraRedSerialTransmitter)
 
 
 
