@@ -9,6 +9,7 @@ layout: default
 ## My Web Apps
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo. 
 ### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
+### [Slide Show](https://bwedgar.github.io/SlideShow) A web app that will show photos from the photo folder and allow Spotify to play while the iphone is mirrored to a TV
 
 ## Coding
 ###  GitHub
