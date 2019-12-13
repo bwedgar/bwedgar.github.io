@@ -18,12 +18,13 @@ I have the CodeHub app on my iPhone which lets me edit any GitHub file away from
 ### Web apps
 #### Tools
 I code web apps using HTML5, Javascript and CSS.  I used to use Coffeescript, JQuery and JQuery Mobile until 2017 but found they are not really needed with the updated JS version.   
-Making a web app available offline.  I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
+#### Making a web app available offline.  
+I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
 This uses a service worker to cache the files the web app needs to run. (This replaces the Cache Manifest I have previously used)
 I found that the code to register the service worker has to be moved to the DOMload event in index.html or it does not run. The reference to the location has to be correct [see](https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
+#### Icons
 I make icons for the web apps using the online drawing program [Pixilart](https://www.pixilart.com/draw).  I save the icons as 100X100.
 I include a manifest.json file.  I include the code that iOS needs to make a web app.
-
 #### This Web site
 I write this site using the [markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) provided by GitHub. This allows links, content and formatting without having to write HTML tags. So much easier.
 
@@ -36,7 +37,7 @@ I am writing a [web app](soundeffects.md) to make sound effects for my model rai
 ### WebAudio test
 This is a way of testing if a device can use Web Audio API. [test](https://bwedgar.github.io/WebAudioTest)
 ### Synthetic Māori voice. 
-I have written a mespeakmaori.js to change written maori language into spoken.  I use the formant synthesiser at [mespeak](https://www.masswerk.at/mespeak/) with code to produce the necessary phonemes and stressed syllables.  I did not use the option of coding a voice as I could not understand how to do this. This is part of my korero web app and can also be accessed at [mespeakmaori]((https://bwedgar.github.io/mespeakmaori)
+I have written a mespeakmaori.js to change written maori language into spoken.  I use the formant synthesiser at [mespeak](https://www.masswerk.at/mespeak/) with code to produce the necessary phonemes and stressed syllables.  I did not use the option of coding a voice as I could not understand how to do this. This is part of my korero web app and can also be accessed at [mespeakmaori](https://bwedgar.github.io/mespeakmaori)
 
 ## Astronomy
 ### My Telescope
