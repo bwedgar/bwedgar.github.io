@@ -11,21 +11,21 @@ layout: default
 ### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
 ### [Slide Show](https://bwedgar.github.io/slideshow) A web app that will make a slide show of photos from the photo folder and allow Spotify to play while the iphone is mirrored to a TV.
 
-## Coding
+## Writting Web Apps
+
 ###  GitHub
 After too many times of losing code I started using GitHub to store my code in March 2019.  I write code using the Atom editor.  I use GitHub Desktop on a MacBook Air rather than command line instructions. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
 I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer.
-### Web apps
-#### Tools
+### Tools
 I code web apps using HTML5, Javascript and CSS.  I used to use Coffeescript, JQuery and JQuery Mobile until 2017 but found they are not really needed with the updated JS version.   
-#### Making a web app available offline.  
+### Making a web app available offline.  
 I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
 This uses a service worker to cache the files the web app needs to run. (This replaces the Cache Manifest I have previously used)
 I found that the code to register the service worker has to be moved to the DOMload event in index.html or it does not run. The reference to the location has to be correct [see](https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
-#### Icons
+### Icons
 I make icons for the web apps using the online drawing program [Pixilart](https://www.pixilart.com/draw).  I save the icons as 100X100.
 I include a manifest.json file.  I include the code that iOS needs to make a web app.
-#### This Web site
+### This Web site
 I write this site using the [markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) provided by GitHub. This allows links, content and formatting without having to write HTML tags. So much easier.
 
 ## Coding sounds
