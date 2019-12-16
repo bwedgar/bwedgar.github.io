@@ -4,20 +4,19 @@ layout: default
 ---
 # Brian Edgar's website
 
-{:toc}
 
 ## My Web Apps
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo. 
+### [Mespeak Māori]((https://bwedgar.github.io/mespeakmaori) A web app for testing the synthetic māori voice using mespeak.js
 ### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
 ### [Slide Show](https://bwedgar.github.io/slideshow) A web app that will make a slide show of photos from the photo folder and allow Spotify to play while the iphone is mirrored to a TV.
 
 ## Writting Web Apps
-
-###  GitHub
-After too many times of losing code I started using GitHub to store my code in March 2019.  I write code using the Atom editor.  I use GitHub Desktop on a MacBook Air rather than command line instructions. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
+###  Storing and running
+After too many times of losing code using paid and free hosting services I started using GitHub to store my code in March 2019. Github allows you to run your code as well and storing the source; this is a major convienience.  I write my code using the Atom editor.  I use GitHub Desktop on a MacBook Air rather than command line instructions to connect files on my Air to the Github. I can test the files by running them from the local copy.  This speeds up development. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
 I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer.
-### Tools
-I code web apps using HTML5, Javascript and CSS.  I used to use Coffeescript, JQuery and JQuery Mobile until 2017 but found they are not really needed with the updated JS version.   
+### Coding Web Apps
+I write web apps using a single .html file and embedding javascript betwen script tags in the file. The javascript generates the html elements and the cssText I need. I use .js files for data and functions that need not go in the main html file. I try to write standalone functions rather than attach these to objects. I have looked at programs like jquery and jquerymobile but find these unnecessary for my simple web apps.
 ### Making a web app available offline.  
 I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
 This uses a service worker to cache the files the web app needs to run. (This replaces the Cache Manifest I have previously used)
@@ -43,10 +42,9 @@ I have written a mespeakmaori.js to change written maori language into spoken.  
 ### My Telescope
 I bought a short focus 6 inch equatorial mounted telescope around 1995 when I was less informed about telescopes than I am now. I found this hard to carry around with its heavy equatorial mechanism and tripod and it was hard to get a comfortable viewing angle. I then modified the mount to make an alt-az mounting as I had no need to track stars or use the setting circles to find stars. This made it easier to use but still not very portable; I did not use it much. Lately I got rid of the tripod and gearing by building a dobsonian mounting. I had some formica offcuts from a bench I had made, some 18 mm plywood left over from building and some teflon blocks I had got from a plastics shop years ago. I used the excellent instructions on the [Stellafane site](https://stellafane.org/tm/dob/index.html). The finished product exceeded my expectations. It is easy to use and I expect to spend more time with my telescope.  [photo](img)
 ### Web sites
-[Atlas of the Universe](http://www.atlasoftheuniverse.com/index.html)
 ### My Push To Telescope web-app
-#### [Push To Telescope](https://bwedgar.github.io/PushToTelescope)
-#### [Go to Push To Telescope page](pushToTelescope.md)
+#### [Web App](https://bwedgar.github.io/PushToTelescope)
+#### [Instructions](pushToTelescope.md)
 
 
 ## Model Making
