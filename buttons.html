@@ -1,0 +1,49 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>buttons</title>
+</head>
+<body>
+  <script>
+
+style="color:white;background:black;font-size:4vw;font-family:verdana;"
+
+buttonStyle = style+"border-style:solid;border-width:1px;"
+listStyle=buttonStyle+"text-align:left;"
+
+document.body.style=style
+
+addElement=(id,type,width,style,text)=>{
+element=document.createElement(type)
+  element.style.cssText=style
+  element.style.width=width+"%"
+  element.id=id
+  element.innerHTML=text
+  document.body.appendChild(element)
+  return element
+}
+
+addButton=(id,width,style,text,action)=>{
+  addElement(id,"button",width,style,text)
+   .addEventListener("click",action)
+}
+
+colorButton=(id,color)=>{
+  document.getElementById(id).style.color=color
+}
+ 
+members=["abby","brian","colin"]
+
+makeMembersList=()=>{
+  members.forEach((m,i)=>{
+    addButton("listMembers"+i,90,listStyle,m,  
+      ()=>colorButton("listMembers"+i,"red"))
+  })
+}
+
+addButton("listMembersButton",100,buttonStyle,"members",makeMembersList)
+
+</script>
+</body>
+</html>
