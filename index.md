@@ -2,7 +2,7 @@
 title: Brian Edgar Web Pages
 layout: default
 ---
-# Brian Edgar's website
+Brian Edgar's website
 
 {:toc}
 
