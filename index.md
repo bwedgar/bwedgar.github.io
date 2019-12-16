@@ -4,7 +4,7 @@ layout: default
 ---
 # Brian Edgar's website
 
-TOC {:toc}
+{:toc}
 
 ## My Web Apps
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo. 
