@@ -2,13 +2,11 @@
 title: Brian Edgar Web Pages
 layout: default
 ---
-#Brian Edgar's website
+# Brian Edgar's website
 - TOC
-{:toc}
 
 ## My Web Apps
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo. 
-### [Mespeak Māori](https://bwedgar.github.io/mespeakmaori) A web app for testing the synthetic māori voice using mespeak.js
 ### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
 ### [Slide Show](https://bwedgar.github.io/slideshow) A web app that will make a slide show of photos from the photo folder and allow Spotify to play while the iphone is mirrored to a TV.
 
@@ -37,7 +35,7 @@ I am writing a [web app](soundeffects.md) to make sound effects for my model rai
 ### WebAudio test
 This is a way of testing if a device can use Web Audio API. [test](https://bwedgar.github.io/WebAudioTest)
 ### Synthetic Māori voice. 
-I have written a mespeakmaori.js to change written maori language into spoken.  I use the formant synthesiser at [mespeak](https://www.masswerk.at/mespeak/) with code to produce the necessary phonemes and stressed syllables.  I did not use the option of coding a voice as I could not understand how to do this. This is part of my korero web app and can also be accessed at [mespeakmaori](https://bwedgar.github.io/mespeakmaori)
+I have written mespeakmaori.js to change written māori language into spoken māori.  I use the formant synthesiser at [mespeak](https://www.masswerk.at/mespeak/) with code to produce the necessary phonemes and stressed syllables.  I did not use the option of coding a voice as I could not understand how to do this. This is part of my korero web app and can also be accessed at [mespeakmaori](https://bwedgar.github.io/mespeakmaori)
 
 ## Astronomy
 ### My Telescope
