@@ -1,49 +1,75 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width" />
   <title>buttons</title>
 </head>
+
 <body>
   <script>
+    style = "color:white;background:black;font-size:3vw;font-family:verdana;"
 
-style="color:white;background:black;font-size:4vw;font-family:verdana;"
+    buttonStyle = style + "border-style:solid;border-width:1px;"
+    listStyle = buttonStyle + "text-align:left;"
+    hiddenStyle = "color:black"
+    revealedStyle = "color:white"
 
-buttonStyle = style+"border-style:solid;border-width:1px;"
-listStyle=buttonStyle+"text-align:left;"
+    document.body.style.cssText = style
 
-document.body.style=style
+    addElement = (id, type, width, style, text) => {
+      element = document.createElement(type)
+      element.style.cssText = style
+      element.style.width = width + "%"
+      element.id = id
+      element.innerHTML = text
+      document.body.appendChild(element)
+      return element
+    }
 
-addElement=(id,type,width,style,text)=>{
-element=document.createElement(type)
-  element.style.cssText=style
-  element.style.width=width+"%"
-  element.id=id
-  element.innerHTML=text
-  document.body.appendChild(element)
-  return element
-}
+    addButton = (id, width, style, text, action) => {
+      addElement(id, "button", width, style, text)
+        .addEventListener("click", action)
+    }
+    //removeElement=(id)=>document.querySelectorAll([id~=id).remove()
 
-addButton=(id,width,style,text,action)=>{
-  addElement(id,"button",width,style,text)
-   .addEventListener("click",action)
-}
+    // removeButton = id => document.getElementById(id).parentNode.removeChild(document.getElementById(id))
+    // removeButtons = idArray => idArray.forEach(id => removeButton(id))
+    // restoreButton = id => document.getElementById(id).style.display = "block"
+    // restoreButtons = idArray => idArray.forEach(id => restoreButton(id))
+    hideButton = id => document.getElementById(id).style.cssText = document.getElementById(id).style.cssText + hiddenStyle
+    hideButtons = idArray => idArray.forEach(id => hideButton(id))
+    showButton = id => document.getElementById(id).style.cssText = document.getElementById(id).style.cssText + revealedStyle
+    showButtons = idArray => idArray.forEach(id => showButton(id))
+    changeButtonText = (id, text) => document.getElementById(id).innerHTML = text
+    addListButton = (id, index, text, action) => addButton(id + index, 100, listStyle, text, action)
+    removeList = listId => {
+      let i = 0
+      while (document.getElementById(listId + i) != null) {
+        document.getElementById(listId + i).remove()
+        i++
+      }
+    }
 
-colorButton=(id,color)=>{
-  document.getElementById(id).style.color=color
-}
- 
-members=["abby","brian","colin"]
+    member = (name, age) => ({
+      name,
+      age
+    })
 
-makeMembersList=()=>{
-  members.forEach((m,i)=>{
-    addButton("listMembers"+i,90,listStyle,m,  
-      ()=>colorButton("listMembers"+i,"red"))
-  })
-}
+    members = [member("abby", 34), member("brian", 44), member("colin", 23)]
 
-addButton("listMembersButton",100,buttonStyle,"members",makeMembersList)
+    addMembersList = () => {
+      removeList("members")
 
-</script>
+      members.forEach((v, i) => addListButton("members", i, v.name, () => hideButton("members" + i)))
+    }
+    addButton("listMembersButton", 100, buttonStyle, "members", addMembersList)
+
+
+    // addButton("ageButton", document, 50, buttonStyle, "", () => hideButton("ageButton"))
+    // hideButton("ageButton")
+  </script>
 </body>
+
 </html>
