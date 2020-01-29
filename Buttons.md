@@ -10,3 +10,13 @@ ObjectName=new function(){
 Any variable (value or function) prefixed with this is copied to the object and can be accessed using ```ObjectName.variable```
 Variables without this are private to the (anonymous) function that creates the object and cannot be accessed from the object
 I tried a few different patters such as singletons, modules and factory functions to make the framework but found the way described easiest. 
+If several objects from the same function then name the function 
+```
+Person=function(height){
+this.height=height;
+}
+Bob=new Person(124);
+Alice=new Person(101);
+Console.log(Alice.height);
+```
+
