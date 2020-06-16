@@ -36,15 +36,15 @@
 
     // removeButton = id => document.getElementById(id).remove()
     //   removeButtons = idArray => idArray.forEach(id => removeButton(id))
-    removeButton = id => document.getElementById(id).style.display = "none"
-    removeButtons = idArray => idArray.forEach(id => removeButton(id))
-
-    // restoreButton = id => document.getElementById(id).style.display = "block"
-    // restoreButtons = idArray => idArray.forEach(id => restoreButton(id))
-    hideButton = id => document.getElementById(id).style.cssText = document.getElementById(id).style.cssText + hiddenStyle
+    hideButton = id => document.getElementById(id).style.display = "none"
     hideButtons = idArray => idArray.forEach(id => hideButton(id))
-    showButton = id => document.getElementById(id).style.cssText = document.getElementById(id).style.cssText + revealedStyle
+
+    showButton = id => document.getElementById(id).style.display = "inline"
     showButtons = idArray => idArray.forEach(id => showButton(id))
+    hideTextButton = id => document.getElementById(id).style.cssText = document.getElementById(id).style.cssText + hiddenStyle
+    hideTextButtons = idArray => idArray.forEach(id => hideTextButton(id))
+    showTextButton = id => document.getElementById(id).style.cssText = document.getElementById(id).style.cssText + revealedStyle
+    showTextButtons = idArray => idArray.forEach(id => showTextButton(id))
     changeButtonText = (id, text) => {
       //console.log(id, document.getElementById(id));
       document.getElementById(id).innerHTML = text
@@ -65,23 +65,14 @@
     addList = (listId, property) => {
       removeList(listId)
       k = eval(listId)
-      k.forEach((v, i) => addListButton(listId, i, v[property], () => showOptions(listId, i)))
+      k.forEach((v, i) =>
+      addListButton(listId, i, v[property],
+        () => showOptions(listId, i)))
     }
 
 
 
-    showOptions = (listId, i) => {
-      //add options for list members
-      removeButton("listMembersButton")
 
-      addButton("addMember", 33.3, buttonStyle, "add", () => addMember())
-      addButton("editMember", 33.3, buttonStyle, "edit", () => editMember())
-      addButton("deleteMember", 33.3, buttonStyle, "delete", () => {
-        removeList("members")
-        removeButton(listId + i)
-      })
-      //changeButtonText(listId + i, "delete")
-    }
 
     //********************************** application ****************
     member = (name, age) => ({
@@ -91,7 +82,35 @@
 
     members = [member("abby", 34), member("brian", 44), member("colin", 23)]
 
-    addButton("listMembersButton", 100, buttonStyle, "list of members", () => addList("members", "name"))
+
+    // addButton("listMembersButton", 100, buttonStyle, "list of members",
+    //   () => addList("members", "name"))
+
+    addButton("addMember", 33.3, buttonStyle, "add", () => addMember())
+    addButton("editMember", 33.3, buttonStyle, "edit", () => editMember())
+    addButton("deleteMember", 33.3, buttonStyle, "delete", () => {
+      removeList("members")
+      hideButton(listId + i)
+      showButton("listMembersButton")
+    })
+
+    listOfMembers=()=>{
+      hideButtons(["addMember", "editMember", "deleteMember"])
+      addList("members", "name")
+    }
+
+     showMember=()=>{
+       showButtons(["addMember", "editMember", "deleteMember"])
+     }
+
+     showOptions = (listId, i) => {
+       //add options for list members
+       //hideButton("listMembersButton")
+       showButtons(["addMember", "editMember", "deleteMember"])
+     }
+
+     listOfMembers()
+
   </script>
 </body>
 

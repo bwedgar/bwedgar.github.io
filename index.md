@@ -7,7 +7,7 @@ layout: default
 {:toc}
 
 ## My Web Apps
-### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo. 
+### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo.
 ### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
 ### [Slide Show](https://bwedgar.github.io/slideshow) A web app that will make a slide show of photos from the photo folder and allow Spotify to play while the iphone is mirrored to a TV.
 
@@ -27,6 +27,10 @@ I include a manifest.json file.  I include the code that iOS needs to make a web
 ### This Web site
 I write this site using the [markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) provided by GitHub. This allows links, content and formatting without having to write HTML tags. So much easier.
 
+##Internet Of thing
+[go to](tips.md)
+
+
 ## Coding sounds
 I became interesting in making sounds using code in 2019.  This was mainly motivated with using a web app to control my model railway using audio modulated infrared signals.  It occurred to me that audio effects could be made by the same web app.
 ### Bird Songs
@@ -35,7 +39,7 @@ Birdsongs are analysed and reproduced using Web Audio API [Coding Bird Songs](bi
 I am writing a [web app](soundeffects.md) to make sound effects for my model railway.  These ideas are based on [go](https://noisehack.com/generate-noise-web-audio-api)
 ### WebAudio test
 This is a way of testing if a device can use Web Audio API. [test](https://bwedgar.github.io/WebAudioTest)
-### Synthetic Māori voice. 
+### Synthetic Māori voice.
 I have written mespeakmaori.js to change written māori language into spoken māori.  I use the formant synthesiser at [mespeak](https://www.masswerk.at/mespeak/) with code to produce the necessary phonemes and stressed syllables.  I did not use the option of coding a voice as I could not understand how to do this. This is part of my korero web app and can also be accessed at [mespeakmaori](https://bwedgar.github.io/mespeakmaori)
 
 ## Astronomy
@@ -78,6 +82,3 @@ My picaxe programs are in GitHub repo [Picaxe](picaxe.md).
 This takes input from a smart device and controls engines, lights, mechanical devices.
 #### Infrared Serial Data Transmitter Web app
 This web app allows a computer or mobile device to send serial signals to a picaxe computer (or Sony TV). It is based on a circuit by ???.  [Run the Web App](https://bwedgar.github.io/InfraRedSerialTransmitter)
-
-
-
