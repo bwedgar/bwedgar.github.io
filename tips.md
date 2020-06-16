@@ -8,15 +8,18 @@ I program the ESP32 using the Arduino IDE following the instructions from Random
 on the hardware code add
 make a Blynk timer say
 Add the code below;
-```javascript
-sendLightDataToBlynk() {
+```C
+void sendLightDataToBlynk() {
 if (LightOn==1) {Blynk.virtualWrite(V6,1); //where V6 is the virtual pin being written to and 1 is the value being written
 }
 else {Blynk.virtualWrite(V6,0);}
 }
 ```
-in the setup {} block include the line
+add to setup()
+```C
+void setup {
 timer.setInterval(60000L, sendLightDataToBlynk); //sends data every 60 seconds
+```
 on the Blynk app add a Value widget, Set the INPUT to V6 and the REFRESH INTERVAL to Push
 The blynk screen will be updated every 60 seconds
 
