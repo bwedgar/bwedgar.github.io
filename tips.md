@@ -1,3 +1,7 @@
+---
+title: Brian Edgar Web Pages
+layout: default
+---
 #INTERNET OF THINGS
 I automate things around my home using an ESP32 microcontroller, Blynk app on my iPhone and IFTTT.
 I program the ESP32 using the Arduino IDE following the instructions from RandomNerdTutorials.com but use Blynk rather than a Web Client to communicate with the ESP32
@@ -16,7 +20,7 @@ on the Blynk app add a Value widget, Set the INPUT to V6 and the REFRESH INTERVA
 
 
 ##To send data from the Blynk app to the ESP32
-create a button on the Blynk app
+create a button on the Blynk app  
 
 ##To send data from a browser to IFTTT (use a IFTTT webhook - used to be called "Maker")
 https://maker.ifttt.com/trigger/Fountain0/with/key/d................K
