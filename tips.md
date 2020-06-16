@@ -1,3 +1,6 @@
+---
+layout: default
+---
 #INTERNET OF THINGS
 I automate things around my home using an ESP32 microcontroller, Blynk app on my iPhone and IFTTT.
 I program the ESP32 using the Arduino IDE following the instructions from RandomNerdTutorials.com but use Blynk rather than a Web Client to communicate with the ESP32
