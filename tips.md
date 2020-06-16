@@ -19,12 +19,25 @@ add to setup()
 ```C
 void setup {
 timer.setInterval(60000L, sendLightDataToBlynk); //sends data every 60 seconds
-``
+```
 on the Blynk app add a Value widget, Set the INPUT to V6 and the REFRESH INTERVAL to Push
 The blynk screen will be updated every 60 seconds
 
 ## To send data from the Blynk app to the ESP32
 create a button on the Blynk app  
+```
+BLYNK_WRITE(V1)
+{
+  int buttonState = param.asInt();
+  if (buttonState==1) {
+    digitalWrite(23,HIGH);
+  }
+  else {
+    digitalWrite(23,LOW);
+  }
+}
+```
+
 
 ## To send data from a browser to IFTTT (use a IFTTT webhook - used to be called "Maker")
 https://maker.ifttt.com/trigger/Fountain0/with/key/d................K
@@ -37,7 +50,7 @@ METHOD is GET
 CONTENT TYPE is application/json
 for example:  https://maker.ifttt.com/trigger/Fountain/pin//with/key/de..................K
 
-##To send data from IFTTT to the Blynk app. (This also sends data to the ESP32)
+## To send data from IFTTT to the Blynk app. (This also sends data to the ESP32)
 Find the IP Address of the Blynk Server in your country.  Open the Terminal (or Run command) ping cloud.blynk.cc  it should look like  45.55.96.146
 http://cloud.blynk.cc/d........................K/update/V0?value=1
 METHOD=getCONTENT-TYPE=text/plain    where d..........K is you authorization key    and V0 is the virtual pin that will receive the data
