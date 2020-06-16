@@ -19,7 +19,7 @@ add to setup()
 ```C
 void setup {
 timer.setInterval(60000L, sendLightDataToBlynk); //sends data every 60 seconds
-```
+``
 on the Blynk app add a Value widget, Set the INPUT to V6 and the REFRESH INTERVAL to Push
 The blynk screen will be updated every 60 seconds
 
