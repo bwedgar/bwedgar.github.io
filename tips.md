@@ -1,6 +1,4 @@
----
-layout: default
----
+
 #INTERNET OF THINGS
 I automate things around my home using an ESP32 microcontroller, Blynk app on my iPhone and IFTTT.
 I program the ESP32 using the Arduino IDE following the instructions from RandomNerdTutorials.com but use Blynk rather than a Web Client to communicate with the ESP32
@@ -10,13 +8,17 @@ I program the ESP32 using the Arduino IDE following the instructions from Random
 on the hardware code add
 make a Blynk timer say
 Add the code below;
-timerLightOn() {
-Blynk.virtualWrite(V6,1); where V1 is the virtual pin being written to and 1 is the value being written
+```javascript
+sendLightDataToBlynk() {
+if (LightOn==1) {Blynk.virtualWrite(V6,1); //where V6 is the virtual pin being written to and 1 is the value being written
 }
+else {Blynk.virtualWrite(V6,0);}
+}
+``
 in the setup {} block include the line
-????
+timer.setInterval(60000L, sendLightDataToBlynk); //sends data every 60 seconds
 on the Blynk app add a Value widget, Set the INPUT to V6 and the REFRESH INTERVAL to Push
-
+The blynk screen will be updated every 60 seconds
 
 ##To send data from the Blynk app to the ESP32
 create a button on the Blynk app  
