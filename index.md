@@ -44,7 +44,12 @@ I have written mespeakmaori.js to change written māori language into spoken mā
 
 ## Astronomy
 ### My Telescope
-I bought a short focus 6 inch equatorial mounted telescope around 1995 when I was less informed about telescopes than I am now. I found this hard to carry around with its heavy equatorial mechanism and tripod and it was hard to get a comfortable viewing angle. I then modified the mount to make an alt-az mounting as I had no need to track stars or use the setting circles to find stars. This made it easier to use but still not very portable; I did not use it much. Lately I got rid of the tripod and gearing by building a dobsonian mounting. I had some formica offcuts from a bench I had made, some 18 mm plywood left over from building and some teflon blocks I had got from a plastics shop years ago. I used the excellent instructions on the [Stellafane site](https://stellafane.org/tm/dob/index.html). The finished product exceeded my expectations. It is easy to use and I expect to spend more time with my telescope.  [photo](img)
+I bought a short focus 6 inch equatorial mounted telescope around 1995 when I was less informed about telescopes than I am now. I found this hard to carry around with its heavy equatorial mechanism and tripod and it was hard to get a comfortable viewing angle. 
+I then modified the mount to make an alt-az mounting as I had no need to track stars or use the setting circles to find stars. This made it easier to use but still not very portable; I did not use it much. Lately I got rid of the tripod and gearing by building a dobsonian mounting. I had some formica offcuts from a bench I had made, some 18 mm plywood left over from building and some teflon blocks I had got from a plastics shop years ago. I used the excellent instructions on the [Stellafane site](https://stellafane.org/tm/dob/index.html). The finished product exceeded my expectations. It is easy to use and I expect to spend more time with my telescope.  [photo](img)
+The telescope has a stated focal length of 1400 mm but is only 700 mm long. The focal length is doubled by using a 2x Barlow lens in the focus tube. It comes with a 25mm and a 10mm Possel eyepieces. These give a magnification of 1400/25=56x and 1400/10=140x. See https://stargazerslounge.com/topic/217851-telescope-length-~-focal-length/
+I have learnt to collimate the scope and added a right angle finder scope. I have added a light and support for sketching and a Positional Angle circle from https://project-nightflight.net/position_angle.pdf
+
+
 ### Web sites
 ### My Push To Telescope web-app
 #### [Web App](https://bwedgar.github.io/PushToTelescope)
