@@ -6,7 +6,11 @@ layout: default
 - TOC
 {:toc}
 
-##Lifestyle
+## Lifestyle
+### [Recipes](https://docs.google.com/document/d/19nNtaR_xp_MG-b3K9kYW71cirV3_J8QIyWHMLrbvAm4/edit)
+
+## Te Reo
+### [KoreroToTaua](https://docs.google.com/document/d/1AZff5jEIcWi7IFc-HJU9gFHTOuygI-vG5p-KelxZLw8/edit)
 
 ## My Web Apps
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo.
