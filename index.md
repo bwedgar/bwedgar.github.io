@@ -6,6 +6,8 @@ layout: default
 - TOC
 {:toc}
 
+##Lifestyle
+
 ## My Web Apps
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo.
 ### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
