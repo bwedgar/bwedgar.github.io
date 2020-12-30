@@ -7,7 +7,7 @@ layout: default
 {:toc}
 
 ## Lifestyle
-### [Recipes](https://bwedgar.github.io/Recipes)
+### [Recipes](recipes.md)
 
 ## Te Reo
 ### [KoreroToTaua](https://docs.google.com/document/d/1AZff5jEIcWi7IFc-HJU9gFHTOuygI-vG5p-KelxZLw8/edit)
