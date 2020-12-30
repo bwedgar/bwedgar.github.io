@@ -1,5 +1,3 @@
-
-
 ---
 title: Recipes
 layout: default
