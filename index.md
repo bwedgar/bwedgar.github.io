@@ -7,7 +7,7 @@ layout: default
 {:toc}
 
 ## Lifestyle
-### [Recipes](recipes.md)
+### [Recipes](https://docs.google.com/document/d/19nNtaR_xp_MG-b3K9kYW71cirV3_J8QIyWHMLrbvAm4)
 
 ## Te Reo
 ### [KoreroToTaua](https://docs.google.com/document/d/1AZff5jEIcWi7IFc-HJU9gFHTOuygI-vG5p-KelxZLw8/edit)
