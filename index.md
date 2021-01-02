@@ -7,7 +7,7 @@ layout: default
 ## [Recipes](https://docs.google.com/document/d/19nNtaR_xp_MG-b3K9kYW71cirV3_J8QIyWHMLrbvAm4)
 ## Making and playing the Kōauau Maori flute
 ## [Kōrerorero Practicing Māoti Dialog](https://docs.google.com/document/d/1AZff5jEIcWi7IFc-HJU9gFHTOuygI-vG5p-KelxZLw8/edit)
-## [Model trains](
+## [Model trains](https://docs.google.com/document/d/1CMf-D7BTqSaPrX-zNM5NW-fj3gXzzieL29KG1VAukTA/edit)
 ## [Astronomy](https://docs.google.com/document/d/1BihO2OPz9CwZr7aTgf8UGeJc3O0hlyVQQqELNNL56bU/edit)
 ## [Coding]
 ## [3D Printing]
@@ -30,26 +30,6 @@ I have written mespeakmaori.js to change written māori language into spoken mā
 ## Web Apps
 #### [Push To Telescope](https://bwedgar.github.io/PushToTelescope)
 #### [Instructions](pushToTelescope.md)
-
-
-## Model Making
-### Model Rail
-I had a 4x8 foot table top train set from Triang when I was a child. It must have been their [TT scale](https://en.m.wikipedia.org/wiki/TT_scale). My grandparents had an old [Lionel train set](https://en.m.wikipedia.org/wiki/Lionel_Corporation). The three rail system gave a painful electric shock! I would set this up on the carpet of their downstairs room and had many happy days surrounded by the heady fumes of “carbon tet”.
-
-I have been an “armchair modeller” for many years. In October 2017 I bought some [angle brace](http://www.miteknz.co.nz/Products/LUMBERLOK-Timber-Connectors/Bracing-Products/Angle-Brace/) to make a frame. I only put it together in February 2019.
-The aim is to have all the electronics, lighting and mechanical parts in the frame and have several models that can fit in the frame, so saving space and allowing different scenery.
-I also plan to 3D print my engines and rolling stock. This suggest using battery powered engines.
-#### Frame
-![image](/images/modelRailFrame.png)
-
-Angle brace cutting table
-
-length no.|1.32mm|0.8mm|0.38mm	|0.14mm|TOTAL mm
-----------|--------|--------|---------|-------|--------
-2|1|2|1|2|3.68
-3|1	|2|2||3.68
-4|1|2|2||3.68
-5|1	|2|2||3.68
 
 ## 3D Printing
 I use a MakerBot Replicator 2 no to print models. I create my objects using code written with [OpenScad](http://www.openscad.org/). I keep my OpenScad code on my OpenScad repository on GitHub.  I share my objects on [Thingiverse](https://www.thingiverse.com/bwedgar/designs).
