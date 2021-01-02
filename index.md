@@ -3,16 +3,14 @@ title: Brian Edgar Web Pages
 layout: default
 ---
 # Brian Edgar's website
-- TOC
-{:toc}
 
 ## Lifestyle
 ### [Recipes](https://docs.google.com/document/d/19nNtaR_xp_MG-b3K9kYW71cirV3_J8QIyWHMLrbvAm4)
-
+### Making and playing the Kōauau Maori flute
 ## Te Reo
 ### [KoreroToTaua](https://docs.google.com/document/d/1AZff5jEIcWi7IFc-HJU9gFHTOuygI-vG5p-KelxZLw8/edit)
 
-## My Web Apps
+## Web Apps
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo.
 ### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
 ### [Slide Show](https://bwedgar.github.io/slideshow) A web app that will make a slide show of photos from the photo folder and allow Spotify to play while the iphone is mirrored to a TV.
@@ -82,7 +80,7 @@ length no.|1.32mm|0.8mm|0.38mm	|0.14mm|TOTAL mm
 5|1	|2|2||3.68
 
 ## 3D Printing
-I use a MakerBot Replicator 2 to print models. I create my objects using code written with [OpenScad](http://www.openscad.org/). I keep my OpenScad code on my OpenScad repository on GitHub.  I share my objects on [Thingiverse](https://www.thingiverse.com/bwedgar/designs).
+I use a MakerBot Replicator 2 no to print models. I create my objects using code written with [OpenScad](http://www.openscad.org/). I keep my OpenScad code on my OpenScad repository on GitHub.  I share my objects on [Thingiverse](https://www.thingiverse.com/bwedgar/designs).
 
 ## Electronics
 I have been interested in electronics since childhood when I got a [Phillips electronics set](https://m.youtube.com/watch?v=h1TII3Z-jXk).
