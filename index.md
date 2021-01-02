@@ -4,37 +4,18 @@ layout: default
 ---
 # Brian Edgar's website
 
-## Lifestyle
-### [Recipes](https://docs.google.com/document/d/19nNtaR_xp_MG-b3K9kYW71cirV3_J8QIyWHMLrbvAm4)
-### Making and playing the Kōauau Maori flute
-## Te Reo
-### [KoreroToTaua](https://docs.google.com/document/d/1AZff5jEIcWi7IFc-HJU9gFHTOuygI-vG5p-KelxZLw8/edit)
-
+## [Recipes](https://docs.google.com/document/d/19nNtaR_xp_MG-b3K9kYW71cirV3_J8QIyWHMLrbvAm4)
+## Making and playing the Kōauau Maori flute
+## [Kōrerorero Practicing Māoti Dialog](https://docs.google.com/document/d/1AZff5jEIcWi7IFc-HJU9gFHTOuygI-vG5p-KelxZLw8/edit)
+## [Model trains](
+## [Astronomy](https://docs.google.com/document/d/1BihO2OPz9CwZr7aTgf8UGeJc3O0hlyVQQqELNNL56bU/edit)
+## [Coding]
+## [3D Printing]
 ## Web Apps
+### [Writing Wb Apps](https://docs.google.com/document/d/1BBUimtgX2wfDuOsCWwzSZh5-G3OT0FzPS5Ma7bC-voI/edit)
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo.
 ### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
 ### [Slide Show](https://bwedgar.github.io/slideshow) A web app that will make a slide show of photos from the photo folder and allow Spotify to play while the iphone is mirrored to a TV.
-
-## Writting Web Apps
-###  Storing and running
-After too many times of losing code using paid and free hosting services I started using GitHub to store my code in March 2019. Github allows you to run your code as well and storing the source; this is a major convienience.  I write my code using the Atom editor.  I use GitHub Desktop on a MacBook Air rather than command line instructions to connect files on my Air to the Github. I can test the files by running them from the local copy.  This speeds up development. I am writing my own [guide](github.md) to how GitHub works so I can remember it.
-I have the CodeHub app on my iPhone which lets me edit any GitHub file away from my computer.
-### Coding Web Apps
-I write web apps using a single .html file and embedding javascript betwen script tags in the file. The javascript generates the html elements and the cssText I need. I use .js files for data and functions that need not go in the main html file. I try to write standalone functions rather than attach these to objects. I have looked at programs like jquery and jquerymobile but find these unnecessary for my simple web apps. I have tried the MVC framework and although I see the point in separating the data structures from the display and controllers, I do not find it helpful to separate these. I use "buttons" for most of my user interface. These can have text aligned center for action buttons and left for lists. I use a addButton function that inserts a button in the DOM and gives it a click event handler. An example of this is [here](https://bwedgar.github.io/buttons.html)
-### Making a web app available offline.  
-I used the code from [medium.com](https://medium.com/@onejohi/offline-web-apps-using-local-storage-and-service-workers-5d40467117b9)
-This uses a service worker to cache the files the web app needs to run. (This replaces the Cache Manifest I have previously used)
-I found that the code to register the service worker has to be moved to the DOMload event in index.html or it does not run. The reference to the location has to be correct [see](https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
-### Icons
-I make icons for the web apps using the online drawing program [Pixilart](https://www.pixilart.com/draw).  I save the icons as 100X100.
-I include a manifest.json file.  I include the code that iOS needs to make a web app.
-### This Web site
-I write this site using the [markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) provided by GitHub. This allows links, content and formatting without having to write HTML tags. So much easier.
-
-##Internet Of thing
-[go to](tips.md)
-
-
 ## Coding sounds
 I became interesting in making sounds using code in 2019.  This was mainly motivated with using a web app to control my model railway using audio modulated infrared signals.  It occurred to me that audio effects could be made by the same web app.
 ### Bird Songs
@@ -46,17 +27,8 @@ This is a way of testing if a device can use Web Audio API. [test](https://bwedg
 ### Synthetic Māori voice.
 I have written mespeakmaori.js to change written māori language into spoken māori.  I use the formant synthesiser at [mespeak](https://www.masswerk.at/mespeak/) with code to produce the necessary phonemes and stressed syllables.  I did not use the option of coding a voice as I could not understand how to do this. This is part of my korero web app and can also be accessed at [mespeakmaori](https://bwedgar.github.io/mespeakmaori)
 
-## Astronomy
-### My Telescope
-I bought a short focus 6 inch equatorial mounted telescope around 1995 when I was less informed about telescopes than I am now. I found this hard to carry around with its heavy equatorial mechanism and tripod and it was hard to get a comfortable viewing angle.
-I then modified the mount to make an alt-az mounting as I had no need to track stars or use the setting circles to find stars. This made it easier to use but still not very portable; I did not use it much. Lately I got rid of the tripod and gearing by building a dobsonian mounting. I had some formica offcuts from a bench I had made, some 18 mm plywood left over from building and some teflon blocks I had got from a plastics shop years ago. I used the excellent instructions on the [Stellafane site](https://stellafane.org/tm/dob/index.html). The finished product exceeded my expectations. It is easy to use and I expect to spend more time with my telescope.  [photo](img)
-The telescope has a stated focal length of 1400 mm but is only 700 mm long. The focal length is doubled by using a 2x Barlow lens in the focus tube. It comes with a 25mm and a 10mm Possel eyepieces. These give a magnification of 1400/25=56x and 1400/10=140x. See https://stargazerslounge.com/topic/217851-telescope-length-~-focal-length/
-I have learnt to collimate the scope and added a right angle finder scope. I have added a light and support for sketching and a Positional Angle circle from https://project-nightflight.net/position_angle.pdf
-
-
-### Web sites
-### My Push To Telescope web-app
-#### [Web App](https://bwedgar.github.io/PushToTelescope)
+## Web Apps
+#### [Push To Telescope](https://bwedgar.github.io/PushToTelescope)
 #### [Instructions](pushToTelescope.md)
 
 
