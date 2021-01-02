@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 
-font-size: 3em;
+
 
 }
 nav ul, footer ul {
@@ -17,7 +17,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #000000;
+    color: #0000FF;
 }
 a:hover {
     text-decoration: underline;
@@ -29,7 +29,7 @@ h1 {
 p {
     font-size: 3em;
     line-height: 1em;
-    color: #000000;
+    color: #000000; 
 }
 footer {
     border-top: 1px solid #d5d5d5;
