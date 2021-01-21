@@ -4,15 +4,20 @@ layout: default
 ---
 # Brian Edgar's website
 
+## Web apps
+### TideWatch  
+Shows the time to the next turn of tide in New Zealand 
+### [Writing Web Apps](https://docs.google.com/document/d/1BBUimtgX2wfDuOsCWwzSZh5-G3OT0FzPS5Ma7bC-voI/edit)
+
 ## [Recipes](https://docs.google.com/document/d/19nNtaR_xp_MG-b3K9kYW71cirV3_J8QIyWHMLrbvAm4)
-## Making and playing the Kōauau Maori flute
+
+## Hobbies
+### Making and playing the Kōauau Maori flute
 ## [Kōrerorero Practicing Māoti Dialog](https://docs.google.com/document/d/1AZff5jEIcWi7IFc-HJU9gFHTOuygI-vG5p-KelxZLw8/edit)
 ## [Model trains](https://docs.google.com/document/d/1CMf-D7BTqSaPrX-zNM5NW-fj3gXzzieL29KG1VAukTA/edit)
 ## [Astronomy](https://docs.google.com/document/d/1BihO2OPz9CwZr7aTgf8UGeJc3O0hlyVQQqELNNL56bU/edit)
 ## [Coding]
 ## [3D Printing]
-## Web Apps
-### [Writing Wb Apps](https://docs.google.com/document/d/1BBUimtgX2wfDuOsCWwzSZh5-G3OT0FzPS5Ma7bC-voI/edit)
 ### [Korero](https://bwedgar.github.io/korero) A web app for learning Te Reo.
 ### [Push To Telescope](https://bwedgar.github.io/PushToTelescope) A web app for finding celestial objects using a Dobsonian mounted Telescope
 ### [Slide Show](https://bwedgar.github.io/slideshow) A web app that will make a slide show of photos from the photo folder and allow Spotify to play while the iphone is mirrored to a TV.
